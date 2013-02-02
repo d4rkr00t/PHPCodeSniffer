@@ -1,0 +1,36 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "PHPCodeSniffer",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "PHPCodeSniffer",
+                        "children":
+                        [
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/PHPCodeSniffer/PHPCodeSniffer.sublime-settings"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/PHPCodeSniffer.sublime-settings"
+                                },
+                                "caption": "Settings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

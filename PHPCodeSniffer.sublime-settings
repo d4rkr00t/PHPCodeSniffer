@@ -1,0 +1,7 @@
+{
+	"phpcs":{
+		"osx": "phpcs",
+		"windows": "phpcs",
+		"linux": "phpcs"
+	}
+}

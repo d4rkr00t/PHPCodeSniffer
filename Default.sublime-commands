@@ -1,0 +1,7 @@
+[
+	{
+	  "id": "phpcs",
+	  "caption": "PHPCodeSniffer - Inspect File",
+	  "command": "php_code_sniffer"
+	}
+]
