@@ -18,11 +18,11 @@ class PhpCodeSniffer(sublime_plugin.WindowCommand):
 				view = self.window.new_file()
 				edit = view.begin_edit()
 				view.insert(edit, 0, out)
-			except Exception, e:
-				print e
+			except Exception as e:
+				print(e)
 
 		else:
 			sublime.error_message("File must be .php")
 			raise Exception("File must be .php")
-		
+
 		return True
